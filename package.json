@@ -1,0 +1,14 @@
+{
+  "name": "plant-bot",
+  "version": "1.0.0",
+  "description": "log and report environmental data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "raspicam": "^0.2.14"
+  }
+}
