@@ -6,7 +6,7 @@ var imgDir = isHighResolution ? 'img-high' : 'img'
 
 var camera = new RaspiCam({
   mode: 'photo',
-  output: `${imgDir}/${date.getTime()}.jpg`,
+  output: `${__dirname}/${imgDir}/${date.getTime()}.jpg`,
   encoding: 'jpg',
   timeout: 0,
   w: isHighResolution ? 2592 : 1280,
